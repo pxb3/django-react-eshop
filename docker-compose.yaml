@@ -1,0 +1,29 @@
+version: '3.9'
+services:
+  backend:
+    build:
+      context: ./eshop_backend
+    command: gunicorn eshop_backend.wsgi:application --bind 0.0.0.0:8000
+    restart: always
+    ports:
+      - 8000:8000
+    volumes:
+      - static_volume:/usr/src/app/static
+      - media_volume:/usr/src/app/media
+    env_file:
+      - ./eshop_backend/eshop_backed/.env
+  
+  frontend:
+    build: ./frontend
+    restart: always
+    ports:
+        - 80:80
+        - 443:443
+    volumes:
+      - static_volume:/usr/src/app/static
+      - media_volume:/usr/src/app/media
+    depends_on:
+      - backend
+volumes:
+  static_volume:
+  media_volume:
