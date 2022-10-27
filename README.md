@@ -1,13 +1,15 @@
 # django-react-eshop
-Eshop website that uses the Django web framework as a backend and React.js as a frontend 
+Eshop website that uses the Django web framework as a backend and React.js as a frontend
+
+Below is the Home Page where each category is a Link that links you to a List view
 
 ![alt text](images/menu.jpg?raw=true)
 
-List View of cpus
+List view of cpus where each cpu is a Link that links you to a detail view of the cpu
 
 ![alt text](images/items.jpg?raw=true)
 
-Detail View of cpus
+Detail view of a cpu with a button to add to cart, a list of comments and a textarea to write a new comment with a submit button.
 
 ![alt text](images/Item.jpg?raw=true)
 
