@@ -29,14 +29,18 @@ Example of checkbox filter
 
 ![alt text](images/Filters2.jpg?raw=true)
 
-Login Page
+Login Page that authenticates if the credentials given match an already existing user
 
 ![alt text](images/Login.jpg?raw=true)
 
-Registration Page
+When a user is logged his name is shown at the top and a Logout button appears that will logout the user
+
+![alt text](images/Logged.jpg?raw=true)
+
+Registration Page that registers a new User
 
 ![alt text](images/Register.jpg?raw=true)
 
-Cart
+Cart with already added items. The Remove button removes items from the cart. The shop button creates an order in the database that matches the user and the items in the cart.
 
 ![alt text](images/Cart.jpg?raw=true)
