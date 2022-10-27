@@ -17,11 +17,11 @@ Example of pagination
 
 Page 1
 
-![alt text](images/Pagination 1.jpg?raw=true)
+![alt text](images/Pagination1.jpg?raw=true)
 
 Page 2
 
-![alt text](images/Pagination 2.jpg?raw=true)
+![alt text](images/Pagination2.jpg?raw=true)
 
 Example of checkbox filter
 
