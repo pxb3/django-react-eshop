@@ -19,7 +19,7 @@ from eshop.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-	path('', include("eshop.urls")),
+	path('eshop', include("eshop.urls")),
 	path("accounts/", include("accounts.urls")),
     path('accounts/', include('django.contrib.auth.urls')),
 ]
